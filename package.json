@@ -1,0 +1,35 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "This is react-fundamentals repo by Siva Naga Kalyan",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start":"parcel node-1/index.html",
+    "build":"parcel build node-1/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SivaNagaKalyan/react-fundamentals.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Kalyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SivaNagaKalyan/react-fundamentals/issues"
+  },
+  "homepage": "https://github.com/SivaNagaKalyan/react-fundamentals#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist":[
+    "last 2 versions"
+  ]
+}
